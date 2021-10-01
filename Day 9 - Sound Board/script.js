@@ -5,6 +5,7 @@ const sounds = [
   "Star-Trek",
   "The-Matrix",
   "Harry-Potter",
+  "Stop",
 ];
 
 sounds.forEach((sound) => {
