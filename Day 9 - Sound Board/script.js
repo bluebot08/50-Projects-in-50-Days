@@ -8,6 +8,12 @@ const sounds = [
   "Stop",
 ];
 
+const container = document.getElementsByClassName("container");
+
+// function changeBackground() {
+//   container.classList.add("Star-Trek");
+// }
+
 sounds.forEach((sound) => {
   const btn = document.createElement("button");
   btn.classList.add("btn");
@@ -16,6 +22,7 @@ sounds.forEach((sound) => {
 
   btn.addEventListener("click", () => {
     stopSongs();
+    // changeBackground();
 
     document.getElementById(sound).play();
   });
