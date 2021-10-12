@@ -8,7 +8,7 @@ const sounds = [
   "Stop",
 ];
 
-const container = document.getElementsByClassName("container");
+// const container = document.getElementById("container");
 
 // function changeBackground() {
 //   container.classList.add("Star-Trek");
